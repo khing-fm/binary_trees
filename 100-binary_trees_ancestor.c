@@ -15,4 +15,6 @@ binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tr
         return (binary_tree_t *)second;
 
     return left ? left : right;
+
+    return (0);
 }
